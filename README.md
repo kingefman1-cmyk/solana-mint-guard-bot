@@ -1,3 +1,5 @@
+[![Powered by Caelara Labs](https://benchmarks.caelaralabs.com/verify/powered-by.svg)](https://caelaralabs.com)
+
 # Mint Guard (white-label starter)
 
 A small Cloudflare Pages site that checks a Solana token mint with the Caelara crypto suite. It is read-only: it signs nothing, holds no keys and sends no funds. It includes a JSON endpoint that a chat bot or script can call; a chat bot itself is not included.
