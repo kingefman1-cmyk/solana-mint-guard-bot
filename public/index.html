@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mint Guard</title>
+<meta name="description" content="Read-only safety check for a Solana token mint: authorities, supply, holder concentration and a safety score.">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="top"><div class="wrap"><strong id="brand">Mint Guard</strong></div></header>
+<main class="wrap">
+  <section class="hero">
+    <h1>Check a Solana mint before you trust it.</h1>
+    <p class="sub">Enter a mint address. You get the mint audit (authorities, supply, decimals, holder concentration) and a safety score. The check is read-only.</p>
+    <form id="f" autocomplete="off"><noscript>This page needs JavaScript to run.</noscript></form>
+    <p id="status" class="status" role="status"></p>
+  </section>
+  <section id="out" hidden>
+    <div class="card">
+      <h2>Result</h2>
+      <div id="pills"></div>
+      <details><summary>Full response</summary><pre id="raw"></pre></details>
+      <p class="muted">A heuristic screen, not financial advice. A low-risk score does not mean a token is safe to hold or trade.</p>
+    </div>
+  </section>
+</main>
+<footer class="wrap muted foot">Data by <a href="https://caelaralabs.com" rel="noopener">Caelara Labs</a>. Heuristic checks: a clean result is not a guarantee.</footer>
+<script type="module" src="/app.js"></script>
+</body>
+</html>

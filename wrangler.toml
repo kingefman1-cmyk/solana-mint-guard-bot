@@ -1,0 +1,11 @@
+name = "solana-mint-guard"
+pages_build_output_dir = "public"
+compatibility_date = "2024-10-22"
+
+[vars]
+# Shown in the header and page title. Change it to your own brand.
+NEXT_PUBLIC_BRAND_NAME = "Mint Guard"
+# Leave unset unless you put your own authentication in front of the API (see the README):
+# ALLOW_DIRECT_CALLS = "true"
+
+# Secret, set with:  npx wrangler pages secret put CAELARA_API_KEY --project-name solana-mint-guard

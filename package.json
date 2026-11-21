@@ -1,0 +1,17 @@
+{
+  "name": "solana-mint-guard-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Read-only safety check for a Solana token mint: authorities, supply, holder concentration and a safety score.",
+  "author": "Caelara Labs <ops@caelaralabs.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "wrangler pages dev public",
+    "deploy": "wrangler pages deploy public",
+    "test": "node --test test/"
+  },
+  "devDependencies": {
+    "wrangler": "^3.80.0"
+  }
+}
